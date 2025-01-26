@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { SprayCan as Spray, Search } from 'lucide-react';
-import { searchPerfumes } from '../utils/search';
+import { SprayCan as  Search } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
 const Header = () => {
@@ -22,8 +21,8 @@ const Header = () => {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center space-x-2">
             <a href="/" className="flex items-center space-x-2">
-              <Spray className="h-6 w-6 text-gray-800" />
-              <span className="text-xl font-serif font-medium">LB PARFUMS</span>
+              <img src="src\public\images\logo.png" alt="LB PARFUMS LOGO" className="h-16 w-auto" />
+              <span className="text-xl font-serif font-medium">THE SMELL OF EXCELLENCE</span>
             </a>
           </div>
           

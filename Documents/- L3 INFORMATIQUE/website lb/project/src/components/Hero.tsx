@@ -1,12 +1,11 @@
-import React from 'react';
-import { SprayCan as Spray } from 'lucide-react';
+
 
 const Hero = () => {
   return (
     <section className="relative h-screen flex items-center bg-gradient-to-b from-gray-100 to-white">
       <div className="absolute inset-0">
         <img
-          src="/path-to-your-hero-image.jpg"
+          src="src\public\images\main.jpeg"
           alt="LB PARFUMS Collection"
           className="w-full h-full object-cover"
         />
@@ -14,11 +13,7 @@ const Hero = () => {
       </div>
       
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <img
-          src="/path-to-your-logo.jpg"
-          alt="LB PARFUMS"
-          className="h-24 mx-auto mb-8"
-        />
+       
         <h1 className="text-4xl md:text-6xl font-serif text-white mb-6">
           Luxe à Portée de Main
         </h1>

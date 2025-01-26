@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Star } from 'lucide-react';
 
 const perfumes = [
@@ -6,7 +6,7 @@ const perfumes = [
     id: 1,
     name: "Royal Oud",
     brand: "Maison de Luxe",
-    image: "https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&q=80",
+    image: "",
     description: "A majestic blend of rare oud wood and royal roses",
     notes: ["Oud", "Rose", "Sandalwood"]
   },
@@ -14,7 +14,7 @@ const perfumes = [
     id: 2,
     name: "Midnight Jasmine",
     brand: "Essence Pure",
-    image: "https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&q=80",
+    image: "",
     description: "An enchanting evening fragrance with blooming jasmine",
     notes: ["Jasmine", "Vanilla", "Musk"]
   },
@@ -22,7 +22,7 @@ const perfumes = [
     id: 3,
     name: "Azure Dreams",
     brand: "Maison de Luxe",
-    image: "https://images.unsplash.com/photo-1592945403244-b3faa7b3a4e1?auto=format&fit=crop&q=80",
+    image: "",
     description: "Fresh marine notes mixed with exotic citrus",
     notes: ["Bergamot", "Marine Notes", "Amber"]
   }

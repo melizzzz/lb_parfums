@@ -1,19 +1,17 @@
-import React from 'react';
-import { Star } from 'lucide-react';
 
 const newArrivals = [
   {
     id: 1,
     name: "L'Élégance",
     type: "Femme",
-    image: "/path-to-your-new-arrival-1.jpg",
+    image: "src/public/images/bois.jpeg",
     description: "Une nouvelle création florale et délicate"
   },
   {
     id: 2,
     name: "Le Distingué",
     type: "Homme",
-    image: "/path-to-your-new-arrival-2.jpg",
+    image: "src/public/images/bois.jpeg",
     description: "Un parfum boisé aux notes raffinées"
   }
 ];

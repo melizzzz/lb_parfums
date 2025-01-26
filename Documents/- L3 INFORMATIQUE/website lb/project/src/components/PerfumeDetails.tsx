@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { useParams } from 'react-router-dom';
 import { perfumes } from '../data/perfumes';
 import { Star } from 'lucide-react';
@@ -6,10 +6,11 @@ import { Star } from 'lucide-react';
 const PerfumeDetails = () => {
   const { id } = useParams();
   const perfume = perfumes.find(p => p.id === id);
-
   if (!perfume) {
     return <div>Parfum non trouvé</div>;
   }
+
+  console.log('Image path:', perfume.image);
 
   const similarPerfumes = perfumes.filter(p => 
     p.id !== perfume.id && 

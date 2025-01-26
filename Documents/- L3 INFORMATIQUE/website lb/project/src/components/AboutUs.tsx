@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Star, Heart, Award } from 'lucide-react';
 
 const AboutUs = () => {
@@ -17,7 +17,7 @@ const AboutUs = () => {
             <div className="absolute -inset-4 bg-gradient-to-r from-gray-200 to-gray-100 rounded-lg opacity-0 group-hover:opacity-100 transition duration-700 blur-xl"></div>
             <div className="relative">
               <img
-                src="/path-to-your-about-image.jpg"
+                src="src\public\images\martigues.png"
                 alt="LB PARFUMS Atelier"
                 className="rounded-lg shadow-xl"
               />

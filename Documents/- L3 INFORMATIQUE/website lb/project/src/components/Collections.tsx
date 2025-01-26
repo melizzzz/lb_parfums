@@ -4,7 +4,7 @@ const femmeCollection = [
   {
     id: 1,
     name: "Élégance Nocturne",
-    image: "/path-to-your-femme-1.jpg",
+    image: "src/public/images/bois.jpeg",
     description: "Notes florales et musquées",
     notes: ["Rose", "Jasmin", "Musc Blanc"]
   },
@@ -15,7 +15,7 @@ const hommeCollection = [
   {
     id: 1,
     name: "Bois Précieux",
-    image: "/path-to-your-homme-1.jpg",
+    image: "src\public\images\bois.jpeg",
     description: "Notes boisées et épicées",
     notes: ["Santal", "Vétiver", "Poivre Noir"]
   },
